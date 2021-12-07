@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.magmacube.clientmod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ],
+  "client": [
+    "MenuMixin",
+    "ClientMixin",
+    "MultiplayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

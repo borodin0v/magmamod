@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "clientmod",
+  "version": "${version}",
+  "name": "MagmaMod",
+  "description": "",
+  "authors": [
+    "qwic"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clientmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.magmacube.clientmod.MagmaMod"
+    ]
+  },
+  "mixins": [
+    "clientmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
